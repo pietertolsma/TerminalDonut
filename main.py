@@ -125,7 +125,7 @@ class Renderer():
             sys.stdout.flush()
 
 
-renderer = Renderer(40, 40)
+renderer = Renderer(20, 20)
 
 def loop():
     frame = renderer.get_frame()
